@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/tv_text_dynamic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_audiorecorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#E6E6FA"
+        android:text="AudioRecorder"/>
+
+    <TextView
+        android:id="@+id/tv_audiotrace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#E6E6FA"
+        android:text="AudioTrace"/>
+
+    <TextView
+        android:id="@+id/tv_mp3decode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#E6E6FA"
+        android:text="mp3decode"/>
+
+    <TextView
+        android:id="@+id/tv_audioencode_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#E6E6FA"
+        android:text="MediaCodec Audio Encode"/>
+
+    <TextView
+        android:id="@+id/tv_muxer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#E6E6FA"
+        android:text="MediaMuxer"/>
+
+    <TextView
+        android:id="@+id/tv_awn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#E6E6FA"
+        android:text="Play with ANativeWindow"/>
+</LinearLayout>
